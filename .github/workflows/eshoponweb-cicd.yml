@@ -10,7 +10,7 @@ permissions:
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-eastus
-  LOCATION: francecentral
+  LOCATION: italynorth
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
   WEBAPP-NAME: devops-webapp-eastus-2889024614
