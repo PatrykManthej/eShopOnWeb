@@ -9,11 +9,11 @@ permissions:
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-NAME
+  RESOURCE-GROUP: rg-eshoponweb-westeurope
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-  WEBAPP-NAME: eshoponweb-webapp-NAME
+  WEBAPP-NAME: devops-webapp-westeurope-2953026600
 
 jobs:
   #Build, test and publish .net web project in repository
